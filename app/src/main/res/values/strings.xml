@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Challenge App</string>
+    <string name="validation_message_password_length_error">Password must be between %d and %d characters long</string>
+    <string name="validation_message_age_length_error">Age must be limited between %d and %d years old</string>
+    <string name="validation_message_email_invalid">Email is not valid</string>
+    <string name="loading_error_with_message">Loading error: %s</string>
+    <string name="account_has_been_created">Account has been created</string>
+    <string name="error_loading_image">Error loading image</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="password">password</string>
+    <string name="email">email</string>
+    <string name="age">age</string>
+    <string name="network_error_check_your_connection">Network error, Check your connection</string>
+</resources>

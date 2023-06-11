@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <data>
+
+        <variable
+            name="loadingData"
+            type="com.test.myapplication.ui.fragments.home.models.LoadingData" />
+    </data>
+
+    <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <ProgressBar xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="@{loadingData.loadingVisibility}" />
+
+        <TextView
+            android:id="@+id/network_error_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/network_error_check_your_connection"
+            android:textColor="#ff0000"
+            android:visibility="@{loadingData.errorVisibility}" />
+    </FrameLayout>
+
+</layout>
